@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import pygame, sys
 from settings import *
 from level import Level
@@ -28,3 +29,5 @@ class Game:
 if __name__ == '__main__':
 	game = Game()
 	game.run()
+=======
+>>>>>>> 23b43135ff31c2c07e628346dcbd9b31fe52cf94
