@@ -45,11 +45,7 @@ class Level:
                         if style == 'object':
                             surf = graphics['objects'][int(col)]
                             Tile((x, y), [self.visible_sprites, self.obstacle_sprites], 'objects', surf)
-        #         if col == 'x':
-        #             Tile((x, y), [self.visible_sprites, self.obstacle_sprites])
-        #         if col == 'p':
-        #             self.player = Player((x, y), [self.visible_sprites],
-        #                                  self.obstacle_sprites)
+
         self.player = Player((2000, 1430), [self.visible_sprites], self.obstacle_sprites)
     def run(self):
         # update and draw the game
